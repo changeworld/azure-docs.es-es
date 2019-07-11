@@ -4,7 +4,7 @@ description: 'Ejemplo de script de la CLI de Azure: creación de una máquina vi
 services: virtual-machines-linux
 documentationcenter: virtual-machines
 author: cynthn
-manager: jeconnoc
+manager: gwallace
 editor: tysonn
 tags: azure-service-management
 ms.assetid: ''
@@ -16,12 +16,12 @@ ms.workload: infrastructure
 ms.date: 02/27/2017
 ms.author: cynthn
 ms.custom: mvc
-ms.openlocfilehash: 6aed5f40d689fc84c82f37760e78fc7c3fe94dd1
-ms.sourcegitcommit: bd15a37170e57b651c54d8b194e5a99b5bcfb58f
+ms.openlocfilehash: b463df00f57d2dd8f00964eaf10bd0d5f2c2eaab
+ms.sourcegitcommit: c105ccb7cfae6ee87f50f099a1c035623a2e239b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57535628"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "67709504"
 ---
 # <a name="monitor-a-vm-with-azure-monitor"></a>Supervisión de una máquina virtual con Azure Monitor
 

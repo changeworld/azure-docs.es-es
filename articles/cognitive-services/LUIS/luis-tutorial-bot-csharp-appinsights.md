@@ -11,12 +11,12 @@ ms.subservice: language-understanding
 ms.topic: tutorial
 ms.date: 06/16/2019
 ms.author: diberry
-ms.openlocfilehash: fa7147dd1b5f22ead17a60042c1c35c4b770cd18
-ms.sourcegitcommit: 1289f956f897786090166982a8b66f708c9deea1
+ms.openlocfilehash: 720352403fd5f5937669f9838f3974cb0d3f8797
+ms.sourcegitcommit: cf438e4b4e351b64fd0320bf17cc02489e61406a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "67154902"
+ms.lasthandoff: 07/08/2019
+ms.locfileid: "67657804"
 ---
 # <a name="add-luis-results-to-application-insights-from-a-bot-in-c"></a>Adición de resultados de LUIS a Application Insights desde un bot en C#
 
@@ -173,7 +173,7 @@ Abra Application Insights para ver las entradas de LUIS. Los datos pueden tardar
     ![Revisar las propiedades personalizadas de LUIS almacenadas en Application Insights](./media/luis-tutorial-appinsights/application-insights-luis-trace-custom-properties-csharp.png)
 
 ## <a name="query-application-insights-for-intent-score-and-utterance"></a>Consultar en Application Insights de la intención, puntuación y expresión
-Application Insights ofrece la capacidad de consultar los datos con el lenguaje [Kusto](https://docs.microsoft.com/azure/application-insights/app-insights-analytics#query-data-in-analytics), así como exportarlos a [Power BI](https://powerbi.microsoft.com). 
+Application Insights ofrece la capacidad de consultar los datos con el lenguaje [Kusto](https://docs.microsoft.com/azure/azure-monitor/log-query/log-query-overview#what-language-do-log-queries-use), así como exportarlos a [Power BI](https://powerbi.microsoft.com). 
 
 1. Selecciona **Log (Analytics)** (Registro [análisis]). Se abre una ventana nueva con una ventana de consulta en la parte superior y una ventana de tabla de datos por debajo. Si ha usado bases de datos antes, esta disposición le resultará familiar. La consulta representa los datos filtrados anteriores. La columna **CustomDimensions** tiene la información del bot y de LUIS.
 1. Para extraer la intención, puntuación y expresión superiores, agregue lo siguiente justo encima de la última línea (la línea `|top...`) en la ventana de consulta:
